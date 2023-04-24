@@ -15,6 +15,7 @@ limitations under the License.
 */
 
 package main
+import "md5"
 
 import (
 	"fmt"
@@ -23,5 +24,6 @@ import (
 )
 
 func main() {
+	h := md5.New()
 	fmt.Println(stringutil.Reverse("!selpmaxe oG ,olleH"))
 }
